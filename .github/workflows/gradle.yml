@@ -22,6 +22,6 @@ jobs:
       run: chmod +x gradlew
     - name: Hello world action step
       id: hello
-      uses: saurabhrai19/custom_js_action@v1.3
+      uses: saurabhrai19/custom_js_action@v1.4
       with:
         who-to-greet: 'Mona the Octocat'
