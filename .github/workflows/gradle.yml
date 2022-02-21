@@ -20,7 +20,7 @@ jobs:
         cache: gradle
     - name: Gradle build action step
       id: hello
-      uses: saurabhrai19/custom_js_action@v1.7
+      uses: saurabhrai19/custom_js_action@v1.8
       with:
         repo-name: 'gradle_app'
     - name: Archive test report
